@@ -1,3 +1,58 @@
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+#navbar{
+    top: 0;
+    left: 0;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+}
+
+#navbar ul li{
+    margin: 0 20px;
+}
+
+#welcome-section{
+    top: 50px;
+    height: 100vh;
+    width: 100%;
+    background-color: #F; 
+
+}
+#projects h2{
+    color: aliceblue;
+}
+@media only screen and (max-width: 600px) {
+   body{
+    background-color: aqua;
+   }
+
+   #navbar ul li{
+    margin: 0 10px;
+}
+
+
+#welcome-section{
+    text-align: center;
+}
+
+#projects{
+    text-align: center;
+}
 @media only screen and (max-width: 600px) {
     body {
         background-color: lightblue;
